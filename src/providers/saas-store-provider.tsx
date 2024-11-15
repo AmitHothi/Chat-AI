@@ -9,15 +9,15 @@ import { ThemeSlice } from "@/stores/theme-slice";
 import createSaasStore from "@/stores/saas-store";
 import { StoreApi } from "zustand/vanilla";
 import { useStore } from "zustand";
-import { SidebarSlice } from "@/stores/side-bar-slice";
-import { OrganizationSlice } from "@/stores/tenants-slice";
-import { UserAuthSlice } from "@/stores/user-auth-slice";
+// import { SidebarSlice } from "@/stores/side-bar-slice";
+// import { OrganizationSlice } from "@/stores/tenants-slice";
+// import { UserAuthSlice } from "@/stores/user-auth-slice";
 
 type useStoreType =
-  | ThemeSlice
-  | SidebarSlice
-  | OrganizationSlice
-  | UserAuthSlice; // add slice type here
+   ThemeSlice
+  // | SidebarSlice
+  // | OrganizationSlice
+  // | UserAuthSlice; // add slice type here
 
 export type SaasStoreApi = StoreApi<useStoreType>;
 

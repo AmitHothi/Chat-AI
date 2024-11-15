@@ -24,10 +24,10 @@ export const RootProvider = ({
             enableSystem
             disableTransitionOnChange
           >
-            {/* <ThemeWrapper defaultTheme="zinc"> */}
+            <ThemeWrapper defaultTheme="zinc">
       {children}
       <Toaster />
-      {/* </ThemeWrapper> */}
+      </ThemeWrapper>
           </ThemeProvider>
         {/* </AutoLogoutProvider> */}
     {/* </ApolloWrapper> */}
