@@ -22,7 +22,7 @@ const socialLinks = {
 };
 
 export const siteConfig = (locale?: string) => ({
-  name: 'arvasit/saas',
+  name: 'arvasit/ai_chat',
   url: `${siteUrl}/${locale}`,
   ogImage: `${siteUrl}/${locale}/og.jpg`,
   description:

@@ -41,10 +41,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '../ui/accordion';
-import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { Separator } from '../ui/separator';
+import { cn } from '@/lib/utils';
 
 interface ISubItems {
   title: string;

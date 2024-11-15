@@ -13,18 +13,13 @@ import { Input } from '@/components/ui/input';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { useParams } from 'next/navigation';
 
-interface ChatBoxProps {
-  chatId: string;
-}
-
-const ChatBox: React.FC<ChatBoxProps> = () => {
+const ChatBox = ({ id }: { id: string }) => {
   const [messages, setMessages] = useState([
     { role: 'assistant', content: 'Hello! How can I assist you today?' },
   ]);
   const [input, setInput] = useState('');
-  const { chatId } = useParams(); // Retrieve chatId from URL params
+  const chatId = id;
 
   useEffect(() => {
     // Initialize chat history based on the chatId

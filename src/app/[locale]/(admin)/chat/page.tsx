@@ -1,5 +1,4 @@
 import ChatInput from '@/components/chat/chat-input';
-import React from 'react';
 
 const ChatBoxPage = () => {
 

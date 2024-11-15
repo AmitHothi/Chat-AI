@@ -1,12 +1,16 @@
 import AppSidebar from '@/components/global/app-sidebar';
 import SiteHeader from '@/components/global/header';
 import { SidebarProvider } from '@/components/ui/sidebar';
+import { Locale } from '@/config/i18n';
 
-interface OrgLayoutProps {
+interface AdminLayoutProps {
   children: React.ReactNode;
+  params: {
+    locale: Locale;
+  };
 }
 
-export default async function AdminLayout({ children }: OrgLayoutProps) {
+export default async function AdminLayout({ children }: AdminLayoutProps) {
   return (
     <SidebarProvider>
       <AppSidebar />

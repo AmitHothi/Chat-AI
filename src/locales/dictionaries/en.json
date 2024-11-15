@@ -1,0 +1,23 @@
+{
+  "header": {
+    "about": "About",
+    "changelog": "Changelog",
+    "dashboard": "Dashboard",
+    "login": "Login"
+  },
+  "hero": {
+    "firstButton": "Get started",
+    "main": "Quick Starter Template for your Next project",
+    "on": "on",
+    "sub": "Packed with all necessary features to get started.",
+    "tools": "Built using Great Tools",
+    "top": "Introducing"
+  },
+  "notFound": {
+    "title": "Page Not Found!"
+  },
+  "login": {
+    "continue": "Continue",
+    "title": "Login"
+  }
+}
